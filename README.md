@@ -29,14 +29,11 @@ A minimal, extensible AI agent you can run locally.
 ## Quickstart
 1. Start backend in terminal A:
 ```bash
-export AGENT_BACKEND_TOKEN="choose-a-long-random-string"
 python3 backend.py
 ```
 
 2. Run agent in terminal B:
 ```bash
-export AGENT_BACKEND_URL="http://127.0.0.1:8787"
-export AGENT_BACKEND_TOKEN="choose-a-long-random-string"
 python3 agent.py "Find the current files in this project"
 ```
 
